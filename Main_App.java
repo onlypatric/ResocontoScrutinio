@@ -6,7 +6,7 @@ import java.util.Arrays;
  * risultato dello stesso alunno) e metodi con parametri
  * Sviluppato a (scuola, casa, etc)
  * 
- * @author
+ * @author Pintescul Patric
  * @version 1.0
  */
 public class Main_App {
@@ -96,25 +96,4 @@ public class Main_App {
 				(int) ((float) A / (float) mx * 100), (int) ((float) S / (float) mx * 100),
 				(int) ((float) N / (float) mx * 100));
 	}
-	/**
-	 * @todo fare i seguenti metodi
-	 */
-	// 1)
-	// migliorare static void visualizzaVettore()
-	// specificare meglio il risultato (risultato per esteso)
-
-	// 2)
-	// static int alunniGenerale( char risultato)
-	// metodo che restituisce a seconda del carattere risultato (che può esssere
-	// 'A','S','R') il numero di alunni corrispondente
-	// cercare di gestire la soluzione di un char risultato non valido ad esempio
-	// 'O'
-
-	// 3)
-	// static void percentualealunniA_S_N ()
-	// metodo che stampa le tre percuentuali dei tre diversi tipologie di risultati
-	// esempio di stampa
-	// Nella classe sono Ammessi: 33% Sospesi: 33% Respinti: 34%
-	// ripeto è solo un esempio.
-
 }
