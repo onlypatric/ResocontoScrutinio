@@ -32,15 +32,16 @@ public class Main_App {
 	private static void visualizzaVettore() {
 		System.out.print("*-VALUTAZIONI-ALUNNI-*\n");
 		for (int i = 0; i < voti.length; i++) {
+			System.out.printf("Alunno [%-3d] -> Media %.1f | ",i+1,voti[i]);
 			switch (risultati[i]) {
 				case 'A':
-					System.out.format("Alunno [%-3d] -> Media %.1f | AMMESSO\n", i + 1, voti[i]);
+					System.out.println("AMMESSO");
 					break;
 				case 'S':
-					System.out.format("Alunno [%-3d] -> Media %.1f | DA DECIDERE\n", i + 1, voti[i]);
+					System.out.println("DA DECIDERE");
 					break;
 				case 'N':
-					System.out.format("Alunno [%-3d] -> Media %.1f | RIMANDATO\n", i + 1, voti[i]);
+					System.out.println("RIMANDATO");
 					break;
 			}
 		}
